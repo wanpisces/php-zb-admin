@@ -1,0 +1,73 @@
+.avatar-uploader {
+    width: 192px;
+    height: 192px;
+    line-height: 0px;
+}
+
+.avatar-uploader .el-upload {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    background: #F5F5F5;
+    border: 1px dashed #CCCCCC;
+    border-radius: 0;
+}
+
+.avatar-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.huxing-wrap {
+    .avatar-wrap {
+        margin-right: 0;
+    }
+}
+
+.other-img-wrap {
+    .avatar-wrap {
+        margin-bottom: 8px;
+    }
+}
+
+.limit-text {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 148px;
+    height: 148px;
+    line-height: 148px;
+    text-align: center;
+    text-align: center;
+}
+
+.avatar-wrap {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    background: #F5F5F5;
+    margin-right: 32px;
+    margin-bottom: 8px;
+    .img-wrap {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ic_image_delete {
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+}
